@@ -16,3 +16,9 @@ dodatkowo = {
     'odziezowy': ['buty','skarpety','majtki'],
     'zoologiczny':['pokarm dla rybek', 'zabawka dla psa'],
 }
+
+for sklep, artykul in dodatkowo.items():
+    print(f"Musze kupic jeszcze {str(artykul).title()} w sklepie {str(sklep).title()}")
+    ilosc_produktow = ilosc_produktow + len(dodatkowo[sklep])
+
+print(f"W sumie teraz musze kupic {ilosc_produktow} produktow")
