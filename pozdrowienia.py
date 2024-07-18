@@ -1,0 +1,1 @@
+print("Serdecznie pozdrawiam Pana Mentora")
